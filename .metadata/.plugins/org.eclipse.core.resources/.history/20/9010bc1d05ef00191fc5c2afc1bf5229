@@ -1,0 +1,5 @@
+package com.mycompany.hiberanate_demo1.entity;
+
+public class student {
+
+}

@@ -1,0 +1,13 @@
+package com.mycompany.hiberanate_demo1.shared;
+
+public class SharedEmployee {
+	private  String firstname;
+	private String lastName;
+	private String email;
+	
+	@Override
+	public String toString() {
+		return "SharedEmployee [firstName"+ firstname + ", lastName= "+",email="+email+"]";
+	}
+
+}

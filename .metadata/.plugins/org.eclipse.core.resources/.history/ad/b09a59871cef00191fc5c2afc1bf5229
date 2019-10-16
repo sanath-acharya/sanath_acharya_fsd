@@ -1,0 +1,9 @@
+package com.mycompany.hiberanate_demo1.factory;
+
+import org.hibernate.Session;
+
+public class MyHibernateFactory {
+
+	
+
+}
