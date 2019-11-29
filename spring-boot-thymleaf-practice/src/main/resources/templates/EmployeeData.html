@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+<a th:href="@{/employees/showformforadd}"> add employee
+</a>
+
+<form action="#" th:action="@{/employees/search}" method="GET" >
+<input type="search"  name="firstname" pathholder="search by first name">
+<input type="search" name="lastname" pathholder="search by last name">
+<input type="submit"/>
+</form>
+<br>
+
+<table>
+
+	
+	<tr>
+	<th>first name
+	</th>
+	<th>
+	
+	lastname
+	</th>
+	
+	</tr>
+	<tr th:each="empl: ${employeeeesModel}">
+		<td th:text="${empl.firstname}"/>
+		<td th:text="${empl.lastname}"/>
+		<td><a th:href="@{/employees/showformforupdate(empid=${empl.id})}">upadate  </a>
+		</td>
+		<td> <a th:href="@{/employees/delete(empid=${empl.id})}">   delete  </a></td>
+	</tr>
+
+</table>
+</body>
+</html>

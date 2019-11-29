@@ -1,6 +1,0 @@
-package com.mycompany.hiberanate_demo1.dao;
-
-public interface EmployeeDAO {
-	public void createEmployee(SharedEmployee sEmployee);
-//	public void 
-}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <h1>hello</h1>
+ <table>
+
+
+		<tr>
+			<th>first name</th>
+			<th>lastname</th>
+			<th>action</th>
+
+		</tr>
+		<tr th:each="empl: ${employee}">
+			<td th:text="${empl.firstname}" />
+			<td th:text="${empl.lastname}" />
+			<td><a th:href="@{/api/delete(emopid=${empl.id})}">delte</a>
+						</td>
+						  
+		</tr>
+
+	</table>
+</body>
+</html>

@@ -1,5 +1,0 @@
-package com.mycompany.hibernate_crud_demo.model;
-
-public class Customer {
-
-}

@@ -2,6 +2,21 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\spring-boot-RabbitMqConsumer\src\main\java\com\example\demo\SpringBootRabbitMqConsumerApplication.java"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\spring_rest_practice"/>
+			<item value="E:\git_files\FSD-3-codes\spring-mvc-crud\src\main\java\comm\example\springdemo\service\CustomerServiceImpl.java"/>
+			<item value="E:\git_files\FSD-3-codes\spring-hello-world\src\main\java\comm\example\springdemo\controller\HomeController.java"/>
+			<item value="E:\git_files\FSD-3-master\my-crud-demo"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace"/>
+			<item value="E:\git_files\FSDJava-master\crm-crud\src\main\java\comm\example\dao\CustomerDAOImpl.java"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\project100\.settings\org.eclipse.wst.common.project.facet.core.xml"/>
+			<item value="E:\git_files\FSD-3-master\myproject"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\newWebProject"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\coustomerApplication"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\newprojectusing_jsp\src\main"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\newprojectusing_jsp"/>
+			<item value="E:\git_files\FSDJava-master\relationship\pom.xml"/>
+			<item value="C:\Users\b8ibmjava25\eclipse-workspace\hibernate_inheritance\src\main\java\com\mycompany\hibernate_inheritance\model\Cd.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -11,9 +26,16 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+		<list key="projectNameCombo">
+			<item value="aaaMvcSpringPractice1"/>
+			<item value="jboss-springmvc-webapp"/>
+		</list>
+		<list key="packageCombo">
+			<item value="org.jboss.tools.example.springmvc"/>
+		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -25,15 +47,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.customer.module"/>
-			<item value="com.mycompany.my_first_maven_master"/>
+			<item value="com.mycompany.Aspect_starting_1"/>
 		</list>
 		<list key="groupId">
 			<item value="com.mycompany"/>
 		</list>
 		<list key="artifactId">
-			<item value="customer-module"/>
-			<item value="my-first-maven-master"/>
+			<item value="Aspect-starting_1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -49,13 +69,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.mycompany"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="customer-module"/>
-			<item value="my-first-maven-master"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -70,6 +87,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
@@ -88,15 +113,43 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="E:\git_files\FSD-3-master\customer-app"/>
+			<item value="E:\git_files\EmployeeManagement-project-master\project-skillstracker4\SkillsTracker"/>
+			<item value="E:\git_files\skillTracker_project\Project-master\spring-skill-tracker"/>
+			<item value="E:\git_files\skillTracker_project\Project-master"/>
+			<item value="E:\git_files\FSD-3-codes"/>
+			<item value="E:\git_files\FSD-3-codes\spring-security-demo-1.0"/>
+			<item value="E:\git_files\FSD-3-codes\thymeleafdemo-employees-crud-security-with-in-memory-authentication"/>
+			<item value="E:\git_files\spring-boot-angular5-master\user-portal"/>
+			<item value="E:\git_files\FSD-3-codes\employee-search service"/>
+			<item value="E:\git_files\FSD-3-codes\gateway-edge-server"/>
+			<item value="E:\git_files\FSD-3-codes\zuul-edge-server"/>
+			<item value="E:\git_files\EmployeeManagement-project-master\project-skillstracker-new\MailApi"/>
+			<item value="E:\git_files\EmployeeManagement-project-master\project-skillstracker-new\discovery-server"/>
+			<item value="E:\git_files\EmployeeManagement-project-master\project-skillstracker-new\SkillsTracker"/>
+			<item value="E:\git_files\EmployeeManagement-project-master\project-skillstracker-new\LoginHR"/>
+			<item value="E:\git_files\FSD-3-codes\spring-boot-rest-data"/>
 		</list>
 		<list key="projectNameTemplate">
+			<item value="[artifactId]-[version]"/>
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="318"/>
+		<item key="y" value="18"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="560"/>
+		<item key="y" value="130"/>
+	</section>
+	<section name="org.jboss.tools.project.examples.stacksrequirements">
 	</section>
 </section>

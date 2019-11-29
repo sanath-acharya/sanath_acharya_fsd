@@ -1,0 +1,9 @@
+server:
+  port: 8899
+
+#spring:#  data:#    mongodb:#      database: data200
+#      host: localhost
+#      port: 27017
+#  cloud:#    config:#      uri: http://localhost:8050
+#     
+spring:  h2:    console:      enabled: true

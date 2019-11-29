@@ -1,0 +1,18 @@
+server:
+  port: 1234
+
+spring:
+  h2:
+    console:
+      enabled: true
+  jersey:
+    application-path: api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hr?useSSL=false
+    username: root
+    password: pass@word1 
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
